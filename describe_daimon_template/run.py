@@ -57,8 +57,8 @@ def run(job: InputSchema):
 
     description = response.choices[0].message.content
     
-    if job.output:
-        p = f"{job.output}/{DEAULT_FILENAME}"
+    if job.output_path:
+        p = f"{job.output_path}/{DEAULT_FILENAME}"
         with open(p, "w") as f:
             f.write(description)
 
