@@ -34,7 +34,7 @@ DEFAULT_TEMPERATURE = 0.3
 DEAULT_FILENAME = "output.txt"
 
 
-def run(job: InputSchema):
+def run(job: InputSchema, cfg: dict = None) -> str:
     logger.info(f'Running job with input: {job}')
     api_key = os.getenv("OPENAI_API_KEY", None)
 
