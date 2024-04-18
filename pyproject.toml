@@ -1,11 +1,11 @@
 [tool.poetry]
-name = "describe-daimon-template"
+name = "create_profile_description"
 version = "0.1.0"
 description = ""
 authors = ["moarshy <marshath@gmail.com>"]
 readme = "README.md"
 packages = [
-    { include = "describe_daimon_template", from = "." },
+    { include = "create_profile_description", from = "." },
 ]
 
 [tool.poetry.dependencies]

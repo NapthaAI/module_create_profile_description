@@ -2,7 +2,7 @@ import os
 import openai 
 import logging
 from dotenv import load_dotenv
-from describe_daimon_template.schemas import InputSchema
+from create_profile_description.schemas import InputSchema
 
 
 load_dotenv()
