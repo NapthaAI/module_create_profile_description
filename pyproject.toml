@@ -12,7 +12,7 @@ packages = [
 python = "^3.10"
 python-dotenv = "^1.0.1"
 litellm = "^1.35.15"
-
+naptha-sdk = {git = "https://github.com/NapthaAI/naptha-sdk.git"}
 
 [build-system]
 requires = ["poetry-core"]
